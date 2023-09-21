@@ -1,0 +1,10 @@
+@echo off
+call "%appdata%\.zNemesis\Temp\zversion.bat"
+echo ---- Information ---->"%appdata%\.zNemesis\Information.txt"
+echo.>"%appdata%\.zNemesis\Information.txt"
+echo /.zNemesis>"%appdata%\.zNemesis\Information.txt"
+echo Program: zNemesis.exe - ver.%zver%>"%appdata%\.zNemesis\Information.txt"
+echo Path: '%appdata%\.zNemesis'>"%appdata%\.zNemesis\Information.txt"
+echo User: %username%>"%appdata%\.zNemesis\Information.txt"
+echo OS: %os%>"%appdata%\.zNemesis\Information.txt"
+echo Installed at: %DATE%, %TIME%>"%appdata%\.zNemesis\Information.txt"
